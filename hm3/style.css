@@ -1,0 +1,48 @@
+body {
+
+}
+
+ul {
+    background-color: #0B2239;
+    width: 1440px;
+    height: 72px;
+    border: 1px dashed;
+    
+}
+
+li{
+    display: inline-block;
+    
+    color: #FFFFFF;
+    
+}
+li:nth-child(1) {
+    width: 922px;
+    margin-left: 120px;
+    margin-top: 16px;
+}
+
+li:nth-child(2) {
+    margin-left: 42px;
+}
+li:nth-child(3) {
+    margin-left: 30px;
+    background-color:#4AD295;
+    width: 130px;
+    height: 36px;
+    padding: 8px 10px;
+    border-radius: 5px;
+
+}
+.cookie-set {
+    width: 1400px;
+    
+}
+
+.cookie-set p {
+    display: inline-block;
+    background-color: #0B2239;
+    color: #FFFFFF;
+    height: 72px;
+    
+}
