@@ -1,48 +1,75 @@
-body {
 
-}
-
-ul {
+.cookie-set ul {
     background-color: #0B2239;
     width: 1440px;
     height: 72px;
-    border: 1px dashed;
-    
 }
 
-li{
+.cookie-set li{
     display: inline-block;
-    
     color: #FFFFFF;
-    
 }
-li:nth-child(1) {
+.cookie-set li:nth-child(1) {
     width: 922px;
     margin-left: 120px;
     margin-top: 16px;
 }
 
-li:nth-child(2) {
+.cookie-set li:nth-child(2) a {
     margin-left: 42px;
+    color: #4AD295;
 }
-li:nth-child(3) {
-    margin-left: 30px;
-    background-color:#4AD295;
-    width: 130px;
-    height: 36px;
-    padding: 8px 10px;
-    border-radius: 5px;
 
+.cookie-set li:nth-child(3) button {
+    color: white;
+    font-size: 12px;
+    line-height: 20px;
+    background-color: #4AD295;
+    border-radius: 2px;
+    border: 0;
+    margin-left: 20px;
+    padding: 8px 10px;
 }
 .cookie-set {
     width: 1400px;
-    
+    background-color: #0B2239;
 }
 
 .cookie-set p {
     display: inline-block;
-    background-color: #0B2239;
     color: #FFFFFF;
     height: 72px;
+}
+/* banner-2 */
+
+.banner-2{
+    background-color: #2B2627;
+    display: inline-block;
+    width: 1440px;
+    height: 52px;
+    position: relative;
+    top: 24px;
+}
+.banner-2 :first-child {
+    margin-left: 345.5px;
+    margin-top: 18px;
+    float: left;
+    width: 16px;
     
+}
+.banner-2 div {
+    color: white;
+    float: left;
+    margin-top: 16px;
+    margin-left: 8px;    
+}
+.banner-2 div {
+
+}
+.banner-2 :last-child {
+    margin-left: 20px;
+    margin-top: 18px;
+}
+.clear {
+    clear: both;
 }
