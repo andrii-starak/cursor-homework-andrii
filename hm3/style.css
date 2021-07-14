@@ -50,26 +50,77 @@
     position: relative;
     top: 24px;
 }
-.banner-2 :first-child {
+/* .banner-2 :first-child {
     margin-left: 345.5px;
     margin-top: 18px;
     float: left;
     width: 16px;
-    
-}
-.banner-2 div {
+} 
+.banner-2 div { 
     color: white;
     float: left;
     margin-top: 16px;
     margin-left: 8px;    
+} 
+ */
+.banner-2 div.text-wrapper{
+    margin: 16px auto 0px;
+    color: white;
 }
-.banner-2 div {
+.text-wrapper{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+.text-wrapper img, .text-wrapper p{
+    display: inline-block;
+}
+.text-wrapper p {
+    margin-left: 8px;
+}
+
+.text-wrapper a {
+    color: white;
+}
+.text-wrapper img:last-child {
+    margin-left: 20px;
+    
+}
+/* banner-3 */
+.banner-3 {
+    position: relative;
+    width: 560px;
+    top: 72px;
+    border: 1px solid green;
+    border-radius: 15px;
+}
+.text-wrapper-ban3 {
+    margin: auto;
+}
+.text-wrapper-ban3 * {
+    display: inline-block;
+}
+.text-wrapper-ban3 img {
+    margin: 18px auto 16px 18px;
+}
+.text-wrapper-ban3 p {
+    width: 347px;
+    position: relative;
+    margin-left: 10px;
+    top: ;
+    height: 100%;
+}
+.text-wrapper-ban3 span {
+    color: #EA4C89;
 
 }
-.banner-2 :last-child {
-    margin-left: 20px;
-    margin-top: 18px;
-}
-.clear {
-    clear: both;
+.text-wrapper-ban3 button:nth-child(3){
+    height: 28px;
+    width: 63px;
+    padding: 4px 10px;
+    color: ;
+    margin: 22px auot 22px 10px;
+    color: green;
+    background-color: #0D0C22;
+    opacity: 5%;
 }
