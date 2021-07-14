@@ -1,4 +1,6 @@
-
+body {
+    background-color: #E5E5E5;
+}
 .cookie-set ul {
     background-color: #0B2239;
     width: 1440px;
@@ -91,36 +93,43 @@
     position: relative;
     width: 560px;
     top: 72px;
-    border: 1px solid green;
     border-radius: 15px;
+    height: 72px;
+    background-color: #FFFFFF;
 }
 .text-wrapper-ban3 {
-    margin: auto;
+    height: 100%;
 }
 .text-wrapper-ban3 * {
     display: inline-block;
 }
 .text-wrapper-ban3 img {
-    margin: 18px auto 16px 18px;
+    margin-left: 16px;
+    margin-top: 18px;
 }
 .text-wrapper-ban3 p {
     width: 347px;
-    position: relative;
     margin-left: 10px;
-    top: ;
-    height: 100%;
 }
 .text-wrapper-ban3 span {
     color: #EA4C89;
-
 }
 .text-wrapper-ban3 button:nth-child(3){
-    height: 28px;
-    width: 63px;
+    border-radius: 5px;
+    border-width: 0px;
     padding: 4px 10px;
-    color: ;
-    margin: 22px auot 22px 10px;
-    color: green;
-    background-color: #0D0C22;
-    opacity: 5%;
+    height: 28px;
+    position: relative;
+    bottom: 7px;    
+}
+.text-wrapper-ban3 button:nth-child(4){
+    border-radius: 5px;
+    border-width: 0px;
+    padding: 4px 10px;
+    height: 28px;    
+    background-color: #EA4C89;
+    color: white;
+    margin-left: 10px;
+    position: relative;
+    bottom: 7px;
 }
