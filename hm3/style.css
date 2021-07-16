@@ -1,72 +1,49 @@
 body {
     background-color: #E5E5E5;
 }
-.cookie-set ul {
-    background-color: #0B2239;
-    width: 1440px;
-    height: 72px;
+.cookie-set {
+    max-width: 1440px;
+    width: 100%;
+     background-color: #0B2239;
+     margin:  0px 15px;
+     padding: 16px 120px;
 }
-
-.cookie-set li{
-    display: inline-block;
+.cookie-set-wrapper {
+    max-width: 1440px;
+    margin: 0 auto;
+    
+}
+.cookie-set-wrapper p {
+    display: inline;
     color: #FFFFFF;
+    max-width: 922px;
 }
-.cookie-set li:nth-child(1) {
-    width: 922px;
-    margin-left: 120px;
-    margin-top: 16px;
-}
-
-.cookie-set li:nth-child(2) a {
-    margin-left: 42px;
+.cookie-set-wrapper a {
     color: #4AD295;
+    margin-left: 42px;
 }
-
-.cookie-set li:nth-child(3) button {
-    color: white;
-    font-size: 12px;
-    line-height: 20px;
-    background-color: #4AD295;
-    border-radius: 2px;
-    border: 0;
+.cookie-set-wrapper button {
     margin-left: 20px;
     padding: 8px 10px;
-}
-.cookie-set {
-    width: 1400px;
-    background-color: #0B2239;
-}
-
-.cookie-set p {
-    display: inline-block;
+    background-color: #4AD295;
     color: #FFFFFF;
-    height: 72px;
+    border: none;
 }
 /* banner-2 */
 
 .banner-2{
     background-color: #2B2627;
-    display: inline-block;
-    width: 1440px;
-    height: 52px;
-    position: relative;
-    top: 24px;
+    max-width: 1440px;
+    width: 100%;
+    margin-top: 24px;
+    padding: 16px;
+    border: 0;
+    
 }
-/* .banner-2 :first-child {
-    margin-left: 345.5px;
-    margin-top: 18px;
-    float: left;
-    width: 16px;
-} 
-.banner-2 div { 
-    color: white;
-    float: left;
-    margin-top: 16px;
-    margin-left: 8px;    
-} 
- */
+
 .banner-2 div.text-wrapper{
-    margin: 16px auto 0px;
+    
+    margin: 0px auto ;
     color: white;
 }
 .text-wrapper{
@@ -90,18 +67,15 @@ body {
 }
 /* banner-3 */
 .banner-3 {
-    position: relative;
     width: 560px;
-    top: 72px;
     border-radius: 15px;
     height: 72px;
     background-color: #FFFFFF;
 }
-.text-wrapper-ban3 {
-    height: 100%;
-}
+
 .text-wrapper-ban3 * {
     display: inline-block;
+    
 }
 .text-wrapper-ban3 img {
     margin-left: 16px;
@@ -133,5 +107,6 @@ body {
     background-color: #EA4C89;
     color: white;
     margin-left: 10px;
+    margin-bottom: 22px;
     
 }
