@@ -2,6 +2,9 @@ body {
   background-color: #e5e5e5;
   margin-left: 24px;
 }
+body button {
+  cursor: pointer;
+}
 /*  page-title */
 .page-title :nth-child(1) {
   font-family: "Roboto", sans-serif;
