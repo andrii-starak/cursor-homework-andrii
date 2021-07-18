@@ -43,6 +43,11 @@ body {
   background-color: #0b2239;
   width: 1440px;
   height: 72px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 20px;
 }
 
 .cookie-set li {
@@ -99,6 +104,11 @@ body {
   width: 100%;
   margin: auto;
   text-align: center;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 20px;
 }
 .text-wrapper img,
 .text-wrapper p {
@@ -168,10 +178,11 @@ body {
 }
 .banner-black-text p {
   max-width: 469px;
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
   line-height: 20px;
-  size: 12px;
 }
 .banner-black-link {
   color: #e6842e;
@@ -182,6 +193,11 @@ body {
   border-radius: 8px;
   border-width: 0px;
   align-items: flex-start;
+
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
 }
 /* banner 5 bottom dark left */
 .banner-dark-left {
