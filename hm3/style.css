@@ -178,10 +178,9 @@ body {
 }
 .banner-black-text p {
   max-width: 469px;
-  font-family: "Lato", sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 10px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
   line-height: 20px;
 }
 .banner-black-link {
