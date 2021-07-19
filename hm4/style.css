@@ -1,0 +1,232 @@
+body {
+  max-width: 1440px;
+  min-width: 1440px;
+}
+body a {
+  cursor: pointer;
+}
+.header {
+  padding-left: 165px;
+  background-color: #ed4c5c;
+  display: flex;
+  margin: 0 auto;
+}
+.container-left {
+  padding-top: 122px;
+  width: 445px;
+  height: auto;
+  color: #fff;
+}
+.container-left :nth-child(1) {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 43px;
+}
+
+.container-left :nth-child(2) {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 140%;
+
+  margin-top: 24px;
+  text-align: justify;
+}
+.container-left-images {
+  margin-top: 44px;
+}
+.container-left-images img {
+  cursor: pointer;
+}
+.container-left-images :nth-child(2) {
+  margin-left: 25px;
+}
+.container-left-images :nth-child(3) {
+  margin-left: 25px;
+}
+
+.container-right {
+  max-width: 445px;
+  height: 311px;
+  padding-top: 95px;
+  padding-bottom: 95px;
+  margin-left: 125px;
+
+  border-radius: 15px;
+}
+.main {
+  padding: 117px 165px 78px 176px;
+  display: flex;
+}
+
+.main-contact-left :nth-child(1) {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 43px;
+}
+.main-contact-left :nth-child(2) {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 140%;
+  text-align: justify;
+
+  max-width: 434px;
+  margin-top: 53px;
+}
+.main-contact-right {
+  max-width: 540px;
+  display: flex;
+  flex-direction: column;
+}
+.main-contact-right {
+  margin-left: 125px;
+}
+.main-input {
+  max-width: 540px;
+}
+.input-first,
+.input-last {
+  border: 1px solid #333333;
+  box-sizing: border-box;
+  border-radius: 6px;
+  height: 60px;
+  width: 255px;
+  padding-left: 31px;
+  font-size: 16px;
+  line-height: 19px;
+  color: #132743;
+  opacity: 50%;
+}
+.input-last {
+  margin-left: 25px;
+}
+.input-number {
+  width: 540px;
+  height: 60px;
+  border: 1px solid #333333;
+  box-sizing: border-box;
+  border-radius: 6px;
+  padding-left: 31px;
+  margin-top: 24px;
+  font-size: 16px;
+  line-height: 19px;
+  color: #132743;
+  opacity: 50%;
+}
+.service {
+  width: 540px;
+  height: 60px;
+  border: 1px solid #333333;
+  box-sizing: border-box;
+  border-radius: 6px;
+  margin-top: 24px;
+  color: #132743;
+  opacity: 50%;
+  font-size: 16px;
+  line-height: 19px;
+  padding-left: 31px;
+}
+.input-button {
+  padding: 16px 34px;
+  background-color: #ed4c5c;
+  border: none;
+  border: 1.5px solid #ed4c5c;
+  border-radius: 6px;
+  color: #fff;
+  text-transform: uppercase;
+  margin-top: 27px;
+}
+.footer-container {
+  display: flex;
+  flex-direction: row;
+  padding: 85px 196px 86px 166px;
+  background-color: #fafafa;
+  justify-content: space-between;
+}
+.footer-address {
+  display: flex;
+  flex-direction: column;
+  max-width: 254px;
+  font-family: "Lato", sans-serif;
+  color: #101010;
+}
+.footer-address :nth-child(1) {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+}
+.footer-address :nth-child(2) {
+  margin-top: 33px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 150%;
+}
+.footer-address :nth-child(3) {
+  margin-top: 141px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+}
+.footer-services {
+  display: flex;
+  flex-direction: column;
+}
+.srevice-link {
+  text-decoration: none;
+  font-family: "Lato", sans-serif;
+  color: #101010;
+  margin-top: 0.5em;
+}
+.footer-services :nth-child(1) {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  color: #101010;
+  font-family: "Lato", sans-serif;
+}
+.footer-touch {
+  display: flex;
+  flex-direction: column;
+  font-family: "Lato", sans-serif;
+}
+.footer-touch :nth-child(1) {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  color: #101010;
+}
+.footer-touch :nth-child(2) {
+  margin-top: 33px;
+  text-decoration: none;
+  color: #101010;
+}
+.footer-touch :nth-child(3) {
+  margin-top: 11px;
+  text-decoration: none;
+  color: #101010;
+}
+.footer-touch-logo {
+  margin-top: 20px;
+}
+.footer-support {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+}
+.footer-support img {
+  margin-top: 33px;
+}
