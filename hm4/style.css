@@ -2,7 +2,8 @@ body {
   max-width: 1440px;
   min-width: 1440px;
 }
-body a, button{
+body a,
+button {
   cursor: pointer;
 }
 .header {
