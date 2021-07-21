@@ -1,5 +1,6 @@
 body {
   max-width: 1600px;
+  min-width: 1600px;
   margin: auto 250px;
   font-family: "Roboto", sans-serif;
 }
@@ -16,9 +17,7 @@ body {
   display: flex;
   align-items: center;
 }
-.nav-menu :first-child {
-  justify-content: flex-start;
-}
+
 .nav-bar {
   margin-left: 121px;
   display: flex;
@@ -27,7 +26,9 @@ body {
   max-width: 322px;
 }
 .nav-buttom {
+  display: flex;
   margin-left: auto;
+  align-items: center;
 }
 
 /* fonts header */
@@ -46,18 +47,57 @@ body {
   line-height: 160%;
 }
 .nav-buttom-1 {
-  max-width: 152px;
   background-color: #fff;
   border: none;
-  padding: 17px 29px 17px 69px;
   border-radius: 50px;
   box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
-
+  padding: 17px 29px;
   font-style: normal;
   font-weight: 800;
   font-size: 16px;
   line-height: 160%;
-  display: flex;
-  align-items: center;
   letter-spacing: 0.005em;
+}
+.nav-buttom-1 a {
+  align-items: baseline;
+  margin-left: 20px;
+  
+}
+/* intro */
+.intro{
+  margin-top: 130px;
+}
+  .container-intro{
+    display: flex;
+    flex-direction: column;
+    max-width: 645px;
+    height: 464px;
+    justify-content: space-between;
+    
+  }
+.intro-slogan{
+  font-style: normal;
+font-weight: 700;
+font-size: 80px;
+line-height: 110%;
+color: #212353;
+}
+.intro-article {
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 160%;
+color: #4B5D68;
+
+max-width: 380px;
+align-items: flex-start;
+}
+.intro-btn{
+align-self: flex-start;
+padding: 16px 37px;
+border-radius: 50px;
+border: none;
+background-color: #9C69E2;
+color: #fff;
+
 }
