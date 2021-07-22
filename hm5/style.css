@@ -156,26 +156,24 @@ margin-top: 40px;
   max-width: 1117px;
 }
 
-.container-feature{
+.general-feature{
 max-width: 1136px;
 }
 .feature-intro{
-  margin-top: 150px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 160px;
-  justify-content: space-between;
+  height: 460px;
+  justify-content: center;
 }
-.feature-slogan{
+.feature-slogan-main{
   font-style: normal;
 font-weight: 700;
 font-size: 40px;
 line-height: 130%;
 color: #212353;
-
 }
-.feature-info{
+.feature-info-main{
   font-style: normal;
 font-weight: 500;
 font-size: 18px;
@@ -183,28 +181,46 @@ line-height: 160%;
 color: #4B5D68;
 text-align: center;
 max-width: 584px;
+margin-top: 50px;
+
 
 
 }
 /* feature name */
-.feature-name{
-  margin-top: 150px;
+.feature-container{
   display: flex;
+  max-width: 1136px;
+  width: 100%;
+  height: 700px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: center;
 
 }
-.feature-data{
+.feature-block{
   display: flex;
-  max-width: 520px;
+  width: 520px;
+  height: 355px;
+  justify-content: space-between;
+  align-items: center;
+}
+.feature-pic{
+  align-items: center;
+width: 232px;
+height: 211px;
+}
 
 }
-.feature-data-text{
+.feature-text{
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  align-content: ;
+  align-content: space-between;
+  max-width: 220px;
+  height: 280px;
 
 }
-.feature-data-slogan{
+.feature-slogan{
   font-style: normal;
 font-weight: 400;
 font-size: 24px;
@@ -212,23 +228,40 @@ line-height: 130%;
 color: #212353;
 
 }
-.feature-data-info {
+.feature-info {
   font-style: normal;
 font-weight: normal;
 font-size: 16px;
 line-height: 160%;
 color: #4B5D68;
 }
+/* feedback */
+.feedback-container{
+  max-height: 1009px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-
-
-/* feature 2 */
-.feature-access{
+.feedback-window{
+  background-color: #9C69E2;
+  width: 1118px;
+  height: 709px;
+  border-radius: 50px;
 
 }
-.feature-print{
+.feedback-title{
+  position: relative;
+  margin-left: 93px;
+  margin-top: 109px;
+  margin-bottom: 88px;
 
 }
-.feature-security{
+.feedback-client{
+  background-color: #FFFFFF;
+  border-radius: 20px;
+  display: flex;
+  max-width: 943px;
+  justify-content: center;
 
 }
