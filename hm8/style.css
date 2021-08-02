@@ -3,7 +3,7 @@
   flex-wrap: wrap;
   width: fit-content;
   max-width: 400px;
-  margin: 0 auto;
+  margin: 50px auto;
   border: 4px solid rgb(223, 106, 106);
   justify-content: center;
   background-color: rgb(117, 250, 117);
@@ -19,6 +19,16 @@
 .wrapper :nth-last-child(-n + 4) {
   background-color: blue;
 }
-.wrapper :nth-child(3n) {
+.wrapper :nth-child(4n-1) {
   background-color: red;
+}
+.btn-wrap {
+}
+.btn {
+  border: none;
+  text-transform: uppercase;
+  background: #44d3a8;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 100px;
+  padding: 15px;
 }
