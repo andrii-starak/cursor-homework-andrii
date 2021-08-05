@@ -6,7 +6,7 @@ body {
 }
 
 /* header */
-
+`
 .header-wrapper {
     width: 1440px;
 }
@@ -286,7 +286,12 @@ body {
 
 /* slider */
 
-.slider {}
+.slider { 
+    height: 26.9375rem;
+    padding-top: 4.25em;
+    
+
+}
 
 .slider-title {
     font-family: 'Lato', sans-serif;
@@ -294,6 +299,26 @@ body {
     font-weight: bold;
     font-size: 28px;
     line-height: 37px;
-    margin: 62px 0px;
+    text-align: center;
+    padding-bottom: 2.25em;
+}
+.feedback-body{
+    display: grid;
+    grid-template: auto/ 0.5fr repeat(3,1fr) 0.5fr;
+    column-gap: 35px;
+    position: relative;
+}
+.feedback-arrow-left {
+    position: absolute;
+    top: 35%;
+    left: 102px;
+}
+.feedback-arrow-right {
+    position: absolute;
+    left: 92.285%;
+    top: 35%;
+}
+.slider-icon{
+    margin-top: 2.9375em;
     text-align: center;
 }
