@@ -1,12 +1,13 @@
 body {
   max-width: 1440px;
   min-width: 1440px;
+  margin: 0 auto;
 }
 body a,
 button {
   cursor: pointer;
 }
-.header {
+header {
   padding-left: 165px;
   background-color: #ed4c5c;
   display: flex;
