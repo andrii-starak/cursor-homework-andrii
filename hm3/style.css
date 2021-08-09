@@ -88,9 +88,9 @@ body button {
   color: #ffffff;
   height: 72px;
 }
-/* banner-2 */
+/* dark-brown-2 */
 
-.banner-2 {
+.dark-brown-2 {
   background-color: #2b2627;
   display: inline-block;
   width: 1440px;
@@ -99,7 +99,7 @@ body button {
   margin-top: 24px;
 }
 
-.banner-2 div.text-wrapper {
+.dark-brown-2 div.text-wrapper {
   margin: 16px auto 0px;
   color: white;
 }
@@ -127,28 +127,28 @@ body button {
 .text-wrapper img:last-child {
   margin-left: 20px;
 }
-/* banner-3 */
-.banner-3 {
+/* white-pink-cookie-3 */
+.white-pink-cookie-3 {
   width: 560px;
   border-radius: 15px;
   background-color: #ffffff;
   padding: 18px;
   margin-top: 72px;
 }
-.banner-3 * {
+.white-pink-cookie-3 * {
   display: inline-block;
 }
-.banner-3 img {
+.white-pink-cookie-3 img {
   margin-left: 16px;
 }
-.banner-3 p {
+.white-pink-cookie-3 p {
   width: 60%;
   margin-left: 10px;
   line-height: 20px;
   font-size: 14px;
   font-family: "Roboto", sans-serif;
 }
-.banner-3 a {
+.white-pink-cookie-3 a {
   color: #ea4c89;
 }
 .button3-decline {
