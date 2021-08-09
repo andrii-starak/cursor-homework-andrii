@@ -80,6 +80,7 @@ body h2 {
   right: 35.031%;
   top: 13.5403%;
   z-index: 5;
+  width: 57.089%;
 }
 
 .hero-left-video {
@@ -87,6 +88,7 @@ body h2 {
   right: 21.863%;
   bottom: 9.6894%;
   z-index: 3;
+  width: 44.776%;
 }
 
 /* hero-right */
@@ -389,20 +391,18 @@ body h2 {
     text-align: center;
     min-width: 320px;
     box-sizing: border-box;
+    font-size: 1rem;
   }
   * {
     font-size: 1rem;
+    
   }
-  h1 {
-    font-size: 1.875rem;
-  }
-  h2 {
-    font-size: 1.75rem;
-  }
+
   .header-div {
     width: 100%;
     background-image: none;
     padding-inline: 20px;
+    background-color: #F4F6F9;
   }
   .header-div h1,
   .header-div p {
@@ -416,4 +416,45 @@ body h2 {
   h2 + p {
     width: 100%;
   }
+  .hero-body{
+      display: flex;
+      flex-direction: column-reverse;
+      width: 100%;
+      padding-inline: 20px;
+  }
+  .hero-right-article{
+      min-width: 320px;
+      width: 100%;
+      text-align: center;
+  }
+  .hero-right-article * {
+      /* margin: 0 auto; */
+      width: 100%;
+  }
+  .hero-right-article .row-1 {
+      font-size: 1rem;
+      margin-top: 3.375em;
+  }
+  .hero-right-article .row-4 {
+      padding-bottom: 1.25em;
+  }
+  .main-body{
+      display: flex;
+      flex-direction: column;
+  }
+  .main-left-article .row-1 {
+    margin-top: 3.875em;
+  }
+.main-left-article {
+    padding-inline: 20px;
+}
+.main-right {
+}
+    h1 {
+    font-size: 1.875rem;
+  }
+  h2 {
+    font-size: 1.75rem;
+  }
+ 
 }
