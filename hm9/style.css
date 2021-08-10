@@ -322,6 +322,9 @@ body h2 {
   margin-top: 2.9375em;
   text-align: center;
 }
+.feedback-mobile{
+  display: none;
+}
 /* companies */
 .companies {
   text-align: center;
@@ -386,12 +389,13 @@ body h2 {
 }
 /* mobile */
 
-@media (max-width: 360px) {
+@media (max-width: 720px) {
   body {
     text-align: center;
-    min-width: 320px;
+    /* max-width: 320px; */
     box-sizing: border-box;
     font-size: 1rem;
+    margin: 0 auto;
   }
   * {
     font-size: 1rem;
@@ -438,23 +442,94 @@ body h2 {
   .hero-right-article .row-4 {
       padding-bottom: 1.25em;
   }
+  /* main mobile */
   .main-body{
-      display: flex;
-      flex-direction: column;
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr 0.65fr;
+      grid-template-areas: 
+      'top'
+      'bottom';
+    }
+  .main-left-article {
+    grid-area: top;
+    padding-inline: 20px;
   }
   .main-left-article .row-1 {
-    margin-top: 3.875em;
+   margin-top: 3.875em;
+ }
+
+ .main-right{
+   grid-area: bottom;
+   background-image: url(./img/img-main/1\ Group\ 672.png);
+  background-repeat: no-repeat;
   }
-.main-left-article {
-    padding-inline: 20px;
+ .main-right img {
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+   }
+.main-right :nth-child(1){
+ width: 27.625%;
+    left: 13%;
+    top: 0.5rem;
 }
-.main-right {
+
+.main-right :nth-child(2){
+width: 27.625%;
+    left: 63%;
+    top: 14.5rem;
 }
-    h1 {
-    font-size: 1.875rem;
+.main-right :nth-child(3){
+  display: none;
+}
+.main-right :nth-child(4){
+  left: 10%;
+width: 72%;
+}
+/* feature */
+.features{
+  background: lightblue;
+  padding: 0 6.5625%;
   }
-  h2 {
-    font-size: 1.75rem;
-  }
- 
+.features p {
+  color: #4F4F4F;
+}
+.features-body{
+  /* display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(9,1fr);
+  чому не працює ???
+   */
+   display: flex;
+   flex-wrap: wrap;
+   padding: 0;
+}
+/* feedback */
+.slider {
+  margin-top: 7.4375rem;
+  padding: 0 7.22%;
+}
+.feedback-body {
+  display: none;
+}
+.feedback-mobile{
+  display:block;
+  width: ;
+}
+.slider-icon{
+  margin-top: 2.0625rem;
+}
+/* companies */
+.companies {
+  padding: 5.555%;
+}
+.companies-container{
+  flex-wrap: wrap;
+  justify-content: space-between;
+  justify-items: center;
+}
+.companies-container * {
+  padding-top: 1em;
 }
