@@ -455,7 +455,7 @@ body h2 {
     padding-inline: 20px;
   }
   .hero-right-article {
-    min-width: 320px;
+    /* min-width: 320px; */
     max-width: 100%;
     text-align: center;
   }
@@ -515,29 +515,23 @@ body h2 {
   }
   /* feature */
   .features {
-    background-image: url(./img/img-features/feature-background.png);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-image: none;
     padding: 0 6.5625%;
   }
   .features p {
     color: #4F4F4F;
   }
   .features-body {
-    /* display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: repeat(9,1fr);
-  чому не працює ???
-   */
     display: flex;
     flex-wrap: wrap;
     padding: 0;
+    justify-content: center;
   }
   /* feedback */
   .slider {
     margin-top: 7.4375rem;
     padding: 0 7.22%;
-    height: fit-content;
+    ещ height: fit-content;
   }
   .feedback-body {
     display: none;
@@ -570,6 +564,9 @@ body h2 {
   .bottom-right {
     padding: 5.625em 5.55% 0 5.55%;
   }
+  .stores {
+    padding-bottom: 3.25em
+  }
   .stores-bottom img {
     width: 45.625%;
   }
@@ -594,4 +591,10 @@ body h2 {
   }
   .footer-nav *:not(:last-child) {
     padding-right: 1.055em;
+  }
+  .svg-general {
+    fill: #00ADEE;
+  }
+  section {
+    max-width: 100%;
   }
