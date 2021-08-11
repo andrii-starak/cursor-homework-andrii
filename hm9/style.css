@@ -21,7 +21,7 @@ body h2 {
   background-position: right top;
 }
 
-.header-div > img {
+.header-div>img {
   padding-top: 3.9375em;
   padding-bottom: 8.3125em;
 }
@@ -63,6 +63,7 @@ body h2 {
   display: grid;
   grid-template: 37rem/ 55.9027% 1fr;
 }
+
 /* .hero-left > img {
   width: 100%;
 } */
@@ -72,9 +73,11 @@ body h2 {
   position: relative;
   z-index: 1;
 }
+
 .hero-left-background {
   width: 100%;
 }
+
 .hero-left-notification {
   position: absolute;
   right: 35.031%;
@@ -149,24 +152,30 @@ body h2 {
 .article-footer {
   margin-top: 1.375em;
 }
+
 /* main */
+
 .main-body {
   display: grid;
   grid-template: 44.75rem/ 44.09722% 1fr;
   background-image: url(./img/img-main/1\ Group\ 672.png);
   background-repeat: no-repeat;
 }
+
 .main-left-article {
   padding-left: 25.511811%;
 }
+
 /* left */
 
 .main-left-article {
   grid-column: 1/2;
 }
+
 .main-subtitle {
   margin-top: 13.5625em;
 }
+
 .main-footer {
   margin-top: 3.375em;
 }
@@ -176,6 +185,7 @@ body h2 {
 .main-right {
   grid-column: 2/3;
   position: relative;
+  height: 27rem;
 }
 
 .main-phone {
@@ -301,54 +311,69 @@ body h2 {
 .slider-title {
   text-align: center;
   padding-bottom: 2.25em;
+  position: relative;
 }
+
 .feedback-body {
   display: grid;
   grid-template: auto/ 0.5fr repeat(3, 1fr) 0.5fr;
   column-gap: 2.4305%;
   position: relative;
 }
+
 .feedback-arrow-left {
   position: absolute;
   top: 35%;
   left: 7.083%;
 }
+
 .feedback-arrow-right {
   position: absolute;
   left: 92.285%;
   top: 35%;
 }
-.slider-icon {
+
+.slider-icon-div {
   margin-top: 2.9375em;
   text-align: center;
 }
-.feedback-mobile{
+
+.feedback-mobile {
   display: none;
 }
+
 /* companies */
+
 .companies {
   text-align: center;
   padding: 0px 12.5% 4.5625em;
 }
-.companies > h2 {
+
+.companies>h2 {
   text-align: center;
   padding: 2.07143em 0px;
 }
+
 .companies-container {
   display: flex;
   justify-content: space-between;
   align-content: center;
 }
+
 /* bottom */
+
 .bottom {
   display: flex;
 }
+
 .bottom-left {
   width: 46.25%;
 }
+
 .bottom-right {
   padding: 6.5625em 11.25% 0px 5.3472%;
 }
+
 .bottom-right p {
   font-family: "Lato", sans-serif;
   font-style: normal;
@@ -358,10 +383,13 @@ body h2 {
   padding-top: 2.1875em;
   padding-bottom: 2.375em;
 }
+
 .stores-bottom :nth-child(2) {
   margin-left: 6.728%;
 }
+
 /* footer */
+
 .footer {
   display: flex;
   justify-content: center;
@@ -372,6 +400,7 @@ body h2 {
   align-items: center;
   padding: 0 11.25%;
 }
+
 .footer-nav {
   display: flex;
   font-family: "Lato", sans-serif;
@@ -381,12 +410,15 @@ body h2 {
   line-height: 1.3125;
   color: #fff;
 }
+
 .footer-nav *:not(:last-child) {
   padding-right: 2.3125em;
 }
+
 .col-3 *:not(:last-child) {
   padding-right: 1.0625rem;
 }
+
 /* mobile */
 
 @media (max-width: 720px) {
@@ -399,137 +431,167 @@ body h2 {
   }
   * {
     font-size: 1rem;
-    
   }
-
   .header-div {
     width: 100%;
     background-image: none;
     padding-inline: 20px;
     background-color: #F4F6F9;
   }
-  .header-div h1,
-  .header-div p {
+  .header-div h1, .header-div p {
     width: 100%;
   }
   .hero-body {
     display: grid;
     grid-template: 1fr 1fr/1fr;
   }
-  h2,
-  h2 + p {
+  h2, h2+p {
     width: 100%;
   }
-  .hero-body{
-      display: flex;
-      flex-direction: column-reverse;
-      width: 100%;
-      padding-inline: 20px;
+  .hero-body {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+    padding-inline: 20px;
   }
-  .hero-right-article{
-      min-width: 320px;
-      width: 100%;
-      text-align: center;
+  .hero-right-article {
+    min-width: 320px;
+    max-width: 100%;
+    text-align: center;
   }
   .hero-right-article * {
-      /* margin: 0 auto; */
-      width: 100%;
+    /* margin: 0 auto; */
+    width: 100%;
   }
   .hero-right-article .row-1 {
-      font-size: 1rem;
-      margin-top: 3.375em;
+    font-size: 1rem;
+    margin-top: 3.375em;
   }
   .hero-right-article .row-4 {
-      padding-bottom: 1.25em;
+    padding-bottom: 1.25em;
   }
   /* main mobile */
-  .main-body{
-      display: grid;
-      grid-template-columns: 1fr;
-      grid-template-rows: 1fr 0.65fr;
-      grid-template-areas: 
-      'top'
-      'bottom';
-    }
+  .main-body {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 0.65fr;
+    grid-template-areas: 'top' 'bottom';
+  }
   .main-left-article {
     grid-area: top;
     padding-inline: 20px;
   }
   .main-left-article .row-1 {
-   margin-top: 3.875em;
- }
-
- .main-right{
-   grid-area: bottom;
-   background-image: url(./img/img-main/1\ Group\ 672.png);
-  background-repeat: no-repeat;
+    margin-top: 3.875em;
   }
- .main-right img {
-top: 0;
-bottom: 0;
-left: 0;
-right: 0;
-   }
-.main-right :nth-child(1){
- width: 27.625%;
+  .main-right {
+    grid-area: bottom;
+    background-image: url(./img/img-main/1\ Group\ 672.png);
+    background-repeat: no-repeat;
+    text-align: center;
+  }
+  .main-right img {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+  .main-right :nth-child(1) {
+    width: 27.625%;
     left: 13%;
     top: 0.5rem;
-}
-
-.main-right :nth-child(2){
-width: 27.625%;
+  }
+  .main-right :nth-child(2) {
+    width: 27.625%;
     left: 63%;
     top: 14.5rem;
-}
-.main-right :nth-child(3){
-  display: none;
-}
-.main-right :nth-child(4){
-  left: 10%;
-width: 72%;
-}
-/* feature */
-.features{
-  background: lightblue;
-  padding: 0 6.5625%;
   }
-.features p {
-  color: #4F4F4F;
-}
-.features-body{
-  /* display: grid;
+  .main-right :nth-child(3) {
+    display: none;
+  }
+  .main-right :nth-child(4) {
+    left: 10%;
+    width: 72%;
+  }
+  /* feature */
+  .features {
+    background-image: url(./img/img-features/feature-background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0 6.5625%;
+  }
+  .features p {
+    color: #4F4F4F;
+  }
+  .features-body {
+    /* display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: repeat(9,1fr);
   чому не працює ???
    */
-   display: flex;
-   flex-wrap: wrap;
-   padding: 0;
-}
-/* feedback */
-.slider {
-  margin-top: 7.4375rem;
-  padding: 0 7.22%;
-}
-.feedback-body {
-  display: none;
-}
-.feedback-mobile{
-  display:block;
-  width: ;
-}
-.slider-icon{
-  margin-top: 2.0625rem;
-}
-/* companies */
-.companies {
-  padding: 5.555%;
-}
-.companies-container{
-  flex-wrap: wrap;
-  justify-content: space-between;
-  justify-items: center;
-}
-.companies-container * {
-  padding-top: 1em;
-}
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+  }
+  /* feedback */
+  .slider {
+    margin-top: 7.4375rem;
+    padding: 0 7.22%;
+    height: fit-content;
+  }
+  .feedback-body {
+    display: none;
+  }
+  .feedback-mobile {
+    display: block;
+  }
+  .feedback-mobile img {
+    width: 100%;
+  }
+  .slider-icon-div {
+    margin-top: 2.0625rem;
+  }
+  /* companies */
+  .companies {
+    padding: 5.555%;
+  }
+  .companies-container {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    justify-items: center;
+  }
+  .companies-container * {
+    padding-top: 1em;
+  }
+  /* bottom */
+  .bottom {
+    flex-direction: column-reverse;
+  }
+  .bottom-right {
+    padding: 5.625em 5.55% 0 5.55%;
+  }
+  .stores-bottom img {
+    width: 45.625%;
+  }
+  .bottom-left img {
+    width: 100vw;
+  }
+  /* footer */
+  .footer {
+    padding-block: 2.8125rem;
+    padding-inline: 5.83%;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .col-1 {
+    order: 1;
+  }
+  .col-2 {
+    order: 3;
+  }
+  .col-3 {
+    order: 2;
+  }
+  .footer-nav *:not(:last-child) {
+    padding-right: 1.055em;
+  }
