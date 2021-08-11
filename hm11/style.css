@@ -1,0 +1,42 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 1.0625rem;
+}
+
+.container-setting-hm {
+    display: flex;
+    align-items: center;
+}
+
+.btn-group>.btn-group:not(:first-child), .btn-group>.btn:not(:first-child) {
+    margin-left: 0.5em;
+}
+
+.split-hm {
+    margin-left: 0.5em;
+}
+
+.main-icon-color {
+    fill: #000;
+}
+
+.split-hm-flex *:not(:first-child) {
+    margin-left: 2.4375rem;
+}
+
+.subtitle-main * {
+    line-height: 1.471;
+}
+
+.limk-main {
+    color: #133768;
+}
+
+.dots-setting {
+    border-color: #fff;
+}
+
+.nav-no-wrap {
+    flex-wrap: nowrap;
+}
