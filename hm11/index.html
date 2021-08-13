@@ -28,7 +28,7 @@
 
             <!-- search -->
             <form class="col-7 col-lg-auto mb-3 mb-lg-0 me-lg-3">
-                <input type="search" class="form-control" placeholder="Search" aria-label="Search">
+                <input type="search" class="form-control searchInput" placeholder="Search" aria-label="Search">
             </form>
 
             <!-- links -->
@@ -46,14 +46,19 @@
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#"> <svg width="22" height="19" viewBox="0 0 22 19" fill="none"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <path class="nav-icon"
-                                    d="M21.5131 0H0.460947C0.0399037 0 -0.147226 0.509019 0.133469 0.786666L7.61868 8.09803L10.1917 18.6486C10.2853 19.0651 10.8467 19.1113 11.0338 18.7874L21.9341 0.694117C22.1213 0.370196 21.8874 0 21.5131 0ZM2.75329 1.38823H18.4254L8.69468 6.7098C8.50755 6.80234 8.27363 6.75607 8.13329 6.61725L2.75329 1.38823ZM11.0338 16.1035L9.1625 8.42195C9.11572 8.23685 9.20928 8.00548 9.39641 7.91293L19.174 2.54509L11.0338 16.1035Z"
-                                    fill="#262626" />
-                            </svg>
-
-                        </a>
+                        <div class="nav-item__box">
+                            <a class="nav-link " href="#">
+                                <svg width="22" height="19" viewBox="0 0 22 19" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path class="nav-icon"
+                                        d="M21.5131 0H0.460947C0.0399037 0 -0.147226 0.509019 0.133469 0.786666L7.61868 8.09803L10.1917 18.6486C10.2853 19.0651 10.8467 19.1113 11.0338 18.7874L21.9341 0.694117C22.1213 0.370196 21.8874 0 21.5131 0ZM2.75329 1.38823H18.4254L8.69468 6.7098C8.50755 6.80234 8.27363 6.75607 8.13329 6.61725L2.75329 1.38823ZM11.0338 16.1035L9.1625 8.42195C9.11572 8.23685 9.20928 8.00548 9.39641 7.91293L19.174 2.54509L11.0338 16.1035Z"
+                                        fill="#262626" />
+                                </svg>
+                            </a>
+                            <img class="nav-link__message" src="./img/1-headrer/2_1message_number.svg"
+                                alt="message-number-icon">
+                            <p class="nav-link__message--number">5</p>
+                        </div>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">
@@ -86,16 +91,16 @@
             </div>
         </header>
     </div>
-    <main class="container">
-        <div class="row">
-            <div class="col-4">
-                <img src="./img/2-main/1-avatar 36.png" alt="main-avatar">
+    <main class="container ">
+        <div class="row main__boxAvatar">
+            <div class="col-4 ">
+                <img class="main__boxAvatar--mg" src="./img/2-main/1-avatar 36.png" alt="main-avatar">
             </div>
             <div class="col-8">
                 <div class="card-body">
                     <div class="container-setting-hm">
                         <h5 class="card-title">name</h5>
-                        <button class="btn btn-primary" type="submit">Follow</button>
+                        <button class="btn btn-primary btn-follow" type="submit">Follow</button>
                         <!-- dropdown -->
                         <div class="dropdown">
                             <button class="btn btn-primary dropdown-toggle split-hm" type="button"
@@ -111,14 +116,15 @@
                         </button>
                     </div>
                     <div class="d-flex pt-4 pb-4 bd-highlight split-hm-flex ">
-                        <P>79 posts</P>
-                        <P>379 followers</P>
-                        <P>179 following</P>
+                        <P class="profileInfo">79 posts</P>
+                        <P class="profileInfo">379 followers</P>
+                        <P class="profileInfo">179 following</P>
                     </div>
                     <!-- subtitle-main  -->
                     <div class="subtitle-main">
-                        <h5 class="card-title">Name</h5>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting
+                        <h5 class="subtitle-main__name">Name</h5>
+                        <p class="subtitle-main__name--text">Lorem Ipsum is simply dummy text of the printing and
+                            typesetting
                             industry. <br> Lorem Ipsum has been the industry's standard
                             dummy text.</p>
                         <a class="limk-main" href="#" class="card-link">bit.ly/35Ce3mX</a>
@@ -128,40 +134,95 @@
             </div>
         </div>
     </main>
-    <section class="container subImages pb-5 border-bottom">
-        <div class="row">
-            <div class="col-2">
+    <section class="container subImages pb-5 ">
+        <div class="row subImages__row ">
+            <div class="col-2 subImages__col">
                 <div class="subImages__picture">
                     <img src="/hm11/img/3-section/1 featured-stories.png"
-                        class="img-thumbnail rounded-circle subImages__picture--round " alt="featured-stories">
+                        class=" rounded-circle subImages__picture--round " alt="featured-stories">
                     <p class="text-center">Name</p>
                 </div>
             </div>
-            <div class="col-2">
+            <div class="col-2 subImages__col">
                 <div class="subImages__picture">
                     <img src="/hm11/img/3-section/1 featured-stories.png"
-                        class="img-thumbnail rounded-circle subImages__picture--round " alt="featured-stories">
+                        class=" rounded-circle subImages__picture--round " alt="featured-stories">
                     <p class="text-center">Name</p>
                 </div>
             </div>
-            <div class="col-2">
+            <div class="col-2 subImages__col">
                 <div class="subImages__picture">
                     <img src="/hm11/img/3-section/1 featured-stories.png"
-                        class="img-thumbnail rounded-circle subImages__picture--round " alt="featured-stories">
+                        class=" rounded-circle subImages__picture--round " alt="featured-stories">
                     <p class="text-center">Name</p>
                 </div>
             </div>
         </div>
     </section>
-    <section class="tab__and">
-        <ul class="nav nav-tabs nav-center">
-            <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Posts</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link active" href="#">Taged</a>
-            </li>
-        </ul>
+    <section class="contentSelector d-flex split-hm-flex justify-content-center py-4">
+        <div class="contentSelector__box">
+            <a href="#" class="contentSelector__item contentSelector__item--posts"><img
+                    src="./img/4-profileContent/posts Vector.svg" alt="posts-icon">posts</a>
+        </div>
+        <div class="contentSelector__box">
+
+            <a href="#" class="contentSelector__item contentSelector__item--tagged"><img
+                    src="./img/4-profileContent/tagged Vector.svg" alt="tagged-icon">tagged</a>
+        </div>
+    </section>
+    <section class="profileContent">
+        <div class="container-md">
+            <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-3 gx-0 gy-4">
+                <div>
+                    <img class="profileContent__picture" src="./img/4-profileContent/Rectangle 70.png"
+                        alt="profileContent-picture">
+                </div>
+                <div>
+                    <img class="profileContent__picture" src="./img/4-profileContent/Rectangle 70.png"
+                        alt="profileContent-picture">
+                </div>
+                <div>
+                    <img class="profileContent__picture" src="./img/4-profileContent/Rectangle 70.png"
+                        alt="profileContent-picture">
+                </div>
+                <div>
+                    <img class="profileContent__picture" src="./img/4-profileContent/Rectangle 70.png"
+                        alt="profileContent-picture">
+                </div>
+                <div>
+                    <img class="profileContent__picture" src="./img/4-profileContent/Rectangle 70.png"
+                        alt="profileContent-picture">
+                </div>
+                <div>
+                    <img class="profileContent__picture" src="./img/4-profileContent/Rectangle 70.png"
+                        alt="profileContent-picture">
+                </div>
+                <div>
+                    <img class="profileContent__picture" src="./img/4-profileContent/Rectangle 70.png"
+                        alt="profileContent-picture">
+                </div>
+                <div>
+                    <img class="profileContent__picture" src="./img/4-profileContent/Rectangle 70.png"
+                        alt="profileContent-picture">
+                </div>
+                <div>
+                    <img class="profileContent__picture" src="./img/4-profileContent/Rectangle 70.png"
+                        alt="profileContent-picture">
+                </div>
+                <div>
+                    <img class="profileContent__picture" src="./img/4-profileContent/Rectangle 70.png"
+                        alt="profileContent-picture">
+                </div>
+                <div>
+                    <img class="profileContent__picture" src="./img/4-profileContent/Rectangle 70.png"
+                        alt="profileContent-picture">
+                </div>
+                <div>
+                    <img class="profileContent__picture" src="./img/4-profileContent/Rectangle 70.png"
+                        alt="profileContent-picture">
+                </div>
+            </div>
+        </div>
 
     </section>
 

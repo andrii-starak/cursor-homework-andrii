@@ -3,6 +3,11 @@ body {
     font-weight: 400;
     font-size: 1.0625rem;
 }
+/* header */
+.searchInput{
+   text-align:center;
+   background-image: url();
+}
 
 .container-setting-hm {
     display: flex;
@@ -16,27 +21,105 @@ body {
 .split-hm {
     margin-left: 0.5em;
 }
+.nav-item__box{
+    position: relative;
+}
+.nav-link__message {
+    position: absolute;
+    inset: 5% 0px 0px 50%;
+}
+.nav-link__message--number{
+    position: absolute;
+    inset: 9% 0px 0px 59%;
+    color: #fff;
+    font-weight: normal;
+font-size: 12px;
+line-height: 14px;
 
+}
+/* main */
+.main__boxAvatar--mg{
+    padding-left: 5.15%;
+
+}
 .main-icon-color {
     fill: #000;
 }
-
-.split-hm-flex *:not(:first-child) {
+.contentSelector__box:not(:first-child){
     margin-left: 2.4375rem;
+    text-decoration: none;
+
 }
+.contentSelector__item{
+     text-decoration: none;
+     color: black;
+     text-transform: uppercase;
+}
+  .contentSelector__item img{
+margin-right: 5px;
+  } 
 
 .subtitle-main * {
     line-height: 1.471;
 }
+.subImages__col{
+    text-align: center;
+    /* margin-inline: -12px; */
+    max-width: fit-content;
+}
+.subImages__row{
+    padding-left: 5.15%;
 
+}
+.subImages__row--border-bottom{
+    border-bottom: 1px solid #dee2e6;
+    border-bottom-width: 1px ;
+    border-bottom-style: solid ;
+    border-bottom-color: rgb(222, 226, 230) ;
+    width: 65.05%;
+    margin-inline: auto;
+
+}
 .limk-main {
     color: #133768;
 }
 
 .dots-setting {
     border-color: #fff;
+    color: black;
+    font-weight: 700;
 }
 
 .nav-no-wrap {
     flex-wrap: nowrap;
+}
+img .subImages__picture--round{
+    width: 79px !important; 
+}
+/* .contentSelector {
+margin-inline: auto;
+} */
+.btn-follow {
+    margin-left:  3.155%;;
+}
+/* fonts */
+.card-title{
+    font-weight: 500;
+font-size: 26px;
+line-height: 32px;
+}
+.subtitle-main__name {
+    font-weight: 500;
+font-size: 17px;
+line-height: 21px;
+}
+.subtitle-main__name--text {
+font-weight: normal;
+font-size: 17px;
+line-height: 25px;
+}
+.profileInfo{
+    font-weight: 500;
+font-size: 17px;
+line-height: 21px;
 }
