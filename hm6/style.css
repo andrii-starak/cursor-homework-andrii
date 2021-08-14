@@ -148,3 +148,7 @@ table tr:last-child td:last-child {
 .nav-tabs .nav-link {
   color: #495057;
 }
+.contentSelector__item--posts {
+}
+.contentSelector__item--posts:hover {
+  transition: red 
