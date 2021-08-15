@@ -1,15 +1,141 @@
 @use 'btn-styles';
+@use 'fonts';
 * {
   box-sizing: border-box;
 }
 body {
   font-family: "Roboto", sans-serif;
 }
-main {
-  padding-left: 165px;
+header {
+  padding-inline: 165px;
 }
-.btn__header {
-  @extend %btn--color;
-  @extend %btn-font--12;
-  width: 160px;
+
+h2 {
+  @extend %general-font-title;
+}
+.plain-text {
+  @extend %plain-text;
+}
+$color-footer-light-100: #e7ecff;
+// header -navbar ============
+.navbar-brand--style {
+  @extend %navbar-brand--style;
+}
+
+// hero ============
+.hero {
+  background-image: url(../img/1-hero-bg-image.png),
+    url(../img/2-hero-bg-bg.png);
+  background-repeat: no-repeat no-repeat;
+  background-position: top right, bottom right;
+  background-size: 40% 80%, auto;
+  padding-bottom: 24.125rem;
+  margin-top: 11.5625rem;
+  @extend %marpad-section;
+}
+.hero__content {
+  max-width: 55.38%;
+}
+.hero-title {
+  @extend %hero-title-font;
+}
+.hero-article {
+  @extend %hero-article-font;
+}
+.hero__btn-container {
+  margin-top: 4.3125rem;
+}
+.btn__hero--dark {
+  @extend %btn--color-dark;
+  width: 189px;
+}
+.btn__hero--light {
+  @extend %btn--color-light;
+  width: 189px;
+}
+// main==========
+.mainArticle__container {
+  @extend %marpad-section;
+  margin-bottom: 6.75em;
+  background-image: url(../img/3-main-bg.png);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+.mainArticle__center {
+  @extend %article-container-sizes;
+  margin-right: 165px;
+}
+// main-subcontent
+.subcontent--box {
+  @extend %subcontent-container-sizes;
+}
+.subcontent--title {
+  @extend %subcontent--title;
+}
+.subcontent--text {
+  @extend %subcontent--text;
+}
+.mainArticle__center--subcontent {
+  padding-bottom: 3.3125em;
+}
+// general content =========
+.general-content {
+  @extend %marpad-section;
+  padding-top: 7.625rem;
+  margin-bottom: 10.6875em;
+}
+.general-content__box {
+  max-width: 445px;
+}
+.general-content__wrapper2 {
+  padding-block: 13.875em 14.5em;
+}
+.btn__general-content--dark {
+  @extend %btn__general-content--dark;
+}
+// bottom========
+.bottom {
+  padding-top: 14.8125em;
+  text-align: center;
+}
+.bottom__box--plain-text {
+  max-width: 600px;
+  display: inline-block;
+  padding-bottom: 2.25em;
+  margin-bottom: 0;
+}
+.bottom-title {
+  @extend %hero-title-font;
+}
+.bottom--design-kit {
+  @extend %bottom--design-kit;
+}
+.bottom--price {
+  @extend %bottom--price;
+}
+.btn__bottom--dark {
+  @extend %btn--color-dark;
+  width: 189px;
+  margin-bottom: 10.75rem;
+}
+// footer ======
+.footer {
+  @extend %marpad-section;
+  background-color: #e7ecff;
+  padding-top: 3.75rem;
+}
+.footer__copyright {
+  @extend %bottom--price;
+}
+.footer-links {
+  padding-block: 1.25rem 2rem;
+}
+.contacts {
+  width: auto;
+  * {
+    margin-bottom: 0;
+  }
+}
+.social-media *:not(:last-child) {
+  padding-right: 30px;
 }

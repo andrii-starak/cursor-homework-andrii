@@ -10,9 +10,35 @@ $color-main-blue-900: #091133;
 $color-main-grey-300: #929ecc;
 $color-main-grey-400: #939ea4;
 $color-main-grey-600: #5d6970;
-// ==================
+
+$color-footer-light-100: #e7ecff;
+// general font size==================
+%general-font-title {
+  color: $color-main-blue-900;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 48px;
+}
+%plain-text {
+  color: $color-main-blue-500;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+}
+// nav-bar =============
+%navbar-brand--style {
+  color: $color-main-blue-600;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 26px;
+  line-height: 38px;
+  text-decoration: none;
+}
+
 // hero============
-%hero-title {
+%hero-title-font {
   color: $color-main-blue-900;
   font-style: normal;
   font-weight: 500;
@@ -20,11 +46,61 @@ $color-main-grey-600: #5d6970;
   line-height: 66px;
   letter-spacing: 1px;
 }
-%hero-article {
+%hero-article-font {
   color: $color-main-blue-500;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
   line-height: 30px;
 }
-// main============
+
+// mainArticle__center fonts ================
+%subcontent--title {
+  color: $color-main-blue-900;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+}
+%subcontent--text {
+  color: $color-main-grey-600;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 18px;
+}
+// general font container sizes ==========
+%article-container-sizes {
+  max-width: 46.75%;
+}
+%subcontent-container-sizes {
+  max-width: 47.22%;
+}
+// margin & paddings==========
+%marpad-section {
+  padding-left: 165px;
+}
+// bottom===
+%hero-title-font {
+  color: $color-main-blue-700;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 66px;
+  letter-spacing: 1px;
+}
+%bottom--design-kit {
+  color: $color-main-blue-600;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 30px;
+  padding-bottom: 3.33em;
+}
+%bottom--price {
+  color: $color-main-grey-600;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+}

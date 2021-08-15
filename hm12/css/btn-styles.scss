@@ -21,14 +21,36 @@ $btn-hover-color: rgb(184, 92, 221);
   line-height: 26px;
 }
 // color styles ==============
-%btn--color {
+%btn--color-dark {
   background-color: #111b47;
   color: #fff;
   &:hover {
     color: $btn-hover-color;
   }
 }
-%btn--color-inverse {
+%btn--color-light {
+  background-color: #fff;
+  color: #111b47;
+  &:hover {
+    color: $btn-hover-color;
+  }
+}
+
+.btn__header {
+  @extend %btn--color-dark;
+  @extend %btn-font--12;
+  width: 160px;
+}
+%btn__general-content--dark {
+  background-color: #111b47;
+  color: #fff;
+  width: 150px;
+  box-sizing: border-box;
+  &:hover {
+    color: $btn-hover-color;
+  }
+}
+%btn__bottom--dark {
   background-color: #fff;
   color: #111b47;
   &:hover {
