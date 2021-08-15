@@ -1,0 +1,30 @@
+// fonts colors ======
+$color-main-blue-100: #e7ecff;
+$color-main-blue-300: #929ecc;
+$color-main-blue-400: #6f7cb2;
+$color-main-blue-500: #505f98;
+$color-main-blue-600: #37447e;
+$color-main-blue-700: #222f65;
+$color-main-blue-900: #091133;
+
+$color-main-grey-300: #929ecc;
+$color-main-grey-400: #939ea4;
+$color-main-grey-600: #5d6970;
+// ==================
+// hero============
+%hero-title {
+  color: $color-main-blue-900;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 66px;
+  letter-spacing: 1px;
+}
+%hero-article {
+  color: $color-main-blue-500;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 30px;
+}
+// main============

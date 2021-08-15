@@ -1,0 +1,15 @@
+@use 'btn-styles';
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+main {
+  padding-left: 165px;
+}
+.btn__header {
+  @extend %btn--color;
+  @extend %btn-font--12;
+  width: 160px;
+}

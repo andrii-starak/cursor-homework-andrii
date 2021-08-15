@@ -1,0 +1,8 @@
+.btn__header {
+  background-color: #111b47;
+  color: #fff;
+  width: 160px;
+}
+.btn__header:hover {
+  color: #b85cdd;
+}
