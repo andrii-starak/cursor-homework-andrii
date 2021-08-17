@@ -1,0 +1,95 @@
+// animation-name: example;
+
+// animation-duration: 4s;
+
+// animation-iteration-count: infinite;
+
+// animation-direction
+
+// animation-timing-function
+
+//=======
+
+body {
+  background: rgb(155, 152, 149);
+}
+.block {
+  margin: 30vh auto;
+  width: 300px;
+  height: 300px;
+  padding: 40px;
+  background-color: rgb(0, 0, 0, 0.5);
+  .jedi {
+    background: rgb(255, 255, 255);
+    margin-inline: auto;
+    height: 8px;
+    width: 80%;
+    margin-block: 20%;
+  }
+  &:hover {
+    .jedi--red {
+      transform: rotate(45deg);
+      box-shadow: 0px 0px 47px 29px rgba(206, 64, 64, 0.7);
+      width: 65%;
+      border-radius: 10%;
+      transition: 1s ease;
+      animation-play-state: paused;
+    }
+  }
+  .jedi--red {
+    transition: 1.5s ease;
+    transform-origin: center;
+  }
+  &:hover {
+    .jedi--green {
+      transform: rotate(-45deg) translate(-40px, 40px);
+      box-shadow: 0px 0px 47px 29px rgba(78, 244, 27, 0.7);
+      width: 65%;
+      border-radius: 10%;
+      transition: 1s ease;
+      animation-play-state: paused;
+    }
+  }
+  .jedi--green {
+    transition: 1.5s ease;
+    transform-origin: center 40px;
+  }
+  &:hover {
+    .jedi--dismis {
+      transition: 1s ease;
+      transform: translate(0px, 50px);
+      overflow: hidden;
+      opacity: 0;
+    }
+  }
+  .jedi--dismis {
+    display: inherit;
+    transition: 2s ease;
+    opacity: 1;
+  }
+}
+
+// @keyframes duel-red {
+//   0% {
+//   }
+//   100% {
+//     transform: rotate(45deg);
+//     box-shadow: 0px 0px 47px 29px rgba(206, 64, 64, 0.63);
+//     width: 65%;
+//     border-radius: 10%;
+//     transition: 1s ease;
+//     animation-play-state: paused;
+//   }
+// }
+// @keyframes duel-green {
+//   0% {
+//   }
+//   100% {
+//     transform: rotate(-45deg);
+//     box-shadow: 0px 0px 47px 29px rgba(78, 244, 27, 0.63);
+//     width: 65%;
+//     border-radius: 10%;
+//     transition: 1s ease;
+//     animation-play-state: paused;
+//   }
+// }
