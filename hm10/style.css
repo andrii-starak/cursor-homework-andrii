@@ -2,57 +2,67 @@ body {
   background: #9b9895;
 }
 
-.block {
+.star-wars {
   margin: 30vh auto;
   width: 300px;
   height: 300px;
   padding: 40px;
   background-color: rgba(0, 0, 0, 0.5);
+  -webkit-transition: 1s ease;
+  transition: 1s ease;
 }
-.block .jedi {
-  background: white;
+.star-wars:hover {
+  border-radius: 10%;
+  -webkit-transition: 1.5s ease;
+  transition: 1.5s ease;
+}
+.star-wars .jedi {
   margin-inline: auto;
   height: 8px;
   width: 80%;
   margin-block: 20%;
 }
-.block:hover .jedi--red {
-  -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
+.star-wars:hover .jedi--red {
+  -webkit-transform: rotate(45deg) translate(0px, 10px);
+          transform: rotate(45deg) translate(0px, 10px);
   -webkit-box-shadow: 0px 0px 47px 29px rgba(206, 64, 64, 0.7);
           box-shadow: 0px 0px 47px 29px rgba(206, 64, 64, 0.7);
   width: 65%;
   border-radius: 10%;
   -webkit-transition: 1s ease;
   transition: 1s ease;
-  -webkit-animation-play-state: paused;
-          animation-play-state: paused;
 }
-.block .jedi--red {
+.star-wars .jedi--red {
+  background: -webkit-gradient(linear, right top, left top, color-stop(20%, #fff), color-stop(20%, #000), color-stop(30%, #000), color-stop(30%, #fff), color-stop(80%, #fff));
+  background: linear-gradient(right, #fff 20%, #000 20%, #000 30%, #fff 30%, #fff 80%);
   -webkit-transition: 1.5s ease;
   transition: 1.5s ease;
   -webkit-transform-origin: center;
           transform-origin: center;
+  -webkit-transition-delay: 1s;
+          transition-delay: 1s;
 }
-.block:hover .jedi--green {
-  -webkit-transform: rotate(-45deg) translate(-40px, 40px);
-          transform: rotate(-45deg) translate(-40px, 40px);
+.star-wars:hover .jedi--green {
+  -webkit-transform: rotate(-45deg) translate(-50px, 40px);
+          transform: rotate(-45deg) translate(-50px, 40px);
   -webkit-box-shadow: 0px 0px 47px 29px rgba(78, 244, 27, 0.7);
           box-shadow: 0px 0px 47px 29px rgba(78, 244, 27, 0.7);
   width: 65%;
   border-radius: 10%;
   -webkit-transition: 1s ease;
   transition: 1s ease;
-  -webkit-animation-play-state: paused;
-          animation-play-state: paused;
 }
-.block .jedi--green {
+.star-wars .jedi--green {
+  background: -webkit-gradient(linear, left top, right top, color-stop(20%, #fff), color-stop(20%, #000), color-stop(30%, #000), color-stop(30%, #fff), color-stop(80%, #fff));
+  background: linear-gradient(left, #fff 20%, #000 20%, #000 30%, #fff 30%, #fff 80%);
   -webkit-transition: 1.5s ease;
   transition: 1.5s ease;
   -webkit-transform-origin: center 40px;
           transform-origin: center 40px;
+  -webkit-transition-delay: 1s;
+          transition-delay: 1s;
 }
-.block:hover .jedi--dismis {
+.star-wars:hover .jedi--dismis {
   -webkit-transition: 1s ease;
   transition: 1s ease;
   -webkit-transform: translate(0px, 50px);
@@ -60,9 +70,18 @@ body {
   overflow: hidden;
   opacity: 0;
 }
-.block .jedi--dismis {
+.star-wars .jedi--dismis {
+  background: -webkit-gradient(linear, left top, right top, color-stop(20%, #fff), color-stop(20%, #000), color-stop(30%, #000), color-stop(30%, #fff), color-stop(80%, #fff));
+  background: linear-gradient(left, #fff 20%, #000 20%, #000 30%, #fff 30%, #fff 80%);
   display: inherit;
   -webkit-transition: 2s ease;
   transition: 2s ease;
   opacity: 1;
+  -webkit-transition-delay: 2s;
+          transition-delay: 2s;
+}
+
+.neuton {
+  margin: 70vh auto;
+  width: 50%;
 }

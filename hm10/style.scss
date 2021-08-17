@@ -1,26 +1,37 @@
-// animation-name: example;
-
-// animation-duration: 4s;
-
-// animation-iteration-count: infinite;
-
-// animation-direction
-
-// animation-timing-function
-
-//=======
+$background-sword-right: linear-gradient(
+  right,
+  #fff 20%,
+  #000 20%,
+  #000 30%,
+  #fff 30%,
+  #fff 80%
+);
+$background-sword-left: linear-gradient(
+  left,
+  #fff 20%,
+  #000 20%,
+  #000 30%,
+  #fff 30%,
+  #fff 80%
+);
 
 body {
   background: rgb(155, 152, 149);
 }
-.block {
+.star-wars {
   margin: 30vh auto;
   width: 300px;
   height: 300px;
   padding: 40px;
   background-color: rgb(0, 0, 0, 0.5);
+  transition: 1s ease;
+
+  &:hover {
+    border-radius: 10%;
+    transition: 1.5s ease;
+  }
+
   .jedi {
-    background: rgb(255, 255, 255);
     margin-inline: auto;
     height: 8px;
     width: 80%;
@@ -28,31 +39,35 @@ body {
   }
   &:hover {
     .jedi--red {
-      transform: rotate(45deg);
+      transform: rotate(45deg) translate(0px, 10px);
       box-shadow: 0px 0px 47px 29px rgba(206, 64, 64, 0.7);
       width: 65%;
       border-radius: 10%;
       transition: 1s ease;
-      animation-play-state: paused;
     }
   }
   .jedi--red {
+    background: $background-sword-right;
+
     transition: 1.5s ease;
     transform-origin: center;
+    transition-delay: 1s;
   }
   &:hover {
     .jedi--green {
-      transform: rotate(-45deg) translate(-40px, 40px);
+      transform: rotate(-45deg) translate(-50px, 40px);
       box-shadow: 0px 0px 47px 29px rgba(78, 244, 27, 0.7);
       width: 65%;
       border-radius: 10%;
       transition: 1s ease;
-      animation-play-state: paused;
     }
   }
   .jedi--green {
+    background: $background-sword-left;
+
     transition: 1.5s ease;
     transform-origin: center 40px;
+    transition-delay: 1s;
   }
   &:hover {
     .jedi--dismis {
@@ -63,10 +78,17 @@ body {
     }
   }
   .jedi--dismis {
+    background: $background-sword-left;
     display: inherit;
     transition: 2s ease;
     opacity: 1;
+    transition-delay: 2s;
   }
+}
+
+.neuton {
+  margin: 70vh auto;
+  width: 50%;
 }
 
 // @keyframes duel-red {
