@@ -19,9 +19,9 @@ body {
   background: rgb(155, 152, 149);
 }
 .star-wars {
-  margin: 30vh auto;
-  width: 300px;
-  height: 300px;
+  margin: 10vh auto;
+  width: 200px;
+  height: 200px;
   padding: 40px;
   background-color: rgb(0, 0, 0, 0.5);
   transition: 1s ease;
@@ -55,7 +55,7 @@ body {
   }
   &:hover {
     .jedi--green {
-      transform: rotate(-45deg) translate(-50px, 40px);
+      transform: rotate(-45deg) translate(-20px, 40px);
       box-shadow: 0px 0px 47px 29px rgba(78, 244, 27, 0.7);
       width: 65%;
       border-radius: 10%;
@@ -82,36 +82,8 @@ body {
     display: inherit;
     transition: 2s ease;
     opacity: 1;
-    transition-delay: 2s;
+    transition-delay: 1s;
   }
 }
 
-.neuton {
-  margin: 70vh auto;
-  width: 50%;
-}
-
-// @keyframes duel-red {
-//   0% {
-//   }
-//   100% {
-//     transform: rotate(45deg);
-//     box-shadow: 0px 0px 47px 29px rgba(206, 64, 64, 0.63);
-//     width: 65%;
-//     border-radius: 10%;
-//     transition: 1s ease;
-//     animation-play-state: paused;
-//   }
-// }
-// @keyframes duel-green {
-//   0% {
-//   }
-//   100% {
-//     transform: rotate(-45deg);
-//     box-shadow: 0px 0px 47px 29px rgba(78, 244, 27, 0.63);
-//     width: 65%;
-//     border-radius: 10%;
-//     transition: 1s ease;
-//     animation-play-state: paused;
-//   }
-// }
+@import "style-ball";
