@@ -227,11 +227,6 @@ body {
   line-height: 160%;
   color: #4b5d68;
 }
-.feedback-container {
-  /* display: flex;
-  justify-content: flex-start;
-  align-items: center; */
-}
 
 .feedback-window {
   background-color: #9c69e2;
@@ -348,8 +343,6 @@ body {
   letter-spacing: 0.005em;
   color: #fff;
   margin-right: 30px;
-}
-.right-block {
 }
 
 .footer {
