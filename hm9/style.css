@@ -306,6 +306,21 @@ body h2 {
 .slider {
   height: 26.9375rem;
   padding-top: 4.25em;
+  position: relative;  
+
+  
+}
+.slider::before{
+content: "";
+	display: block;    
+	width: 100%;
+	height: 100%;    
+	position: absolute;
+	top: 0;      
+	left: 0;   
+  background: rgb(255,255,255);
+
+background: linear-gradient(90deg, rgba(255,255,255,1) 7%, rgba(255,255,255,0) 50%, rgba(255,255,255,1) 93%);
 }
 
 .slider-title {
@@ -320,7 +335,37 @@ body h2 {
   column-gap: 2.4305%;
   position: relative;
 }
+.card{
+  border-radius: 4px;
+  border: 1px solid #828282;
+  padding-top: 0.9375em;
+  padding-inline: 17px 13px;
+  margin-inline: 1.21525% 1.21525%;
+}
+.card-body{
+  height: 10rem;
+}
+.card-body p{
+  font-family: 'Lato', sans-serif;
+   font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 18px;
+}
+.card-body_title{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 1.125em;
+}
+.card-body_title h5{
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 19px;
 
+}
 .feedback-arrow-left {
   position: absolute;
   top: 35%;
@@ -533,9 +578,7 @@ body h2 {
     padding: 0 7.22%;
     ещ height: fit-content;
   }
-  .feedback-body {
-    display: none;
-  }
+
   .feedback-mobile {
     display: block;
   }
