@@ -16,7 +16,9 @@ table {
   border-spacing: 0;
   border-collapse: separate;
 }
-
+table td {
+ padding-block: 15px;
+}
 .table-1,
 .table-2 {
   margin: 0 auto;
