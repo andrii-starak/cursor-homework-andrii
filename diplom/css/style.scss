@@ -14,7 +14,7 @@
   }
 }
 // font-family: 'Montserrat', sans-serif;
-@import "partials", "fonts";
+@import "partials", "fonts", "animation";
 body {
   margin: 0 auto;
   max-width: 1440px;
@@ -234,13 +234,16 @@ header {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  .catalogue__option-middle {
+    margin-inline: 40px;
+  }
   .catalogue__option {
     max-width: 400px;
     position: relative;
     .option__image {
       width: 100%;
     }
-    .option__image--heat {
+    .option__image--heart {
       position: absolute;
       right: 0;
       top: 0;
@@ -268,7 +271,6 @@ header {
 .div-nav {
   width: 301px;
   height: 54px;
-  background: red;
   margin: 3.125em auto 9.375em auto;
 }
 //about =============

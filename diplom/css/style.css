@@ -97,6 +97,38 @@
   font-family: "Poiret One", sans-serif, cursive;
 }
 
+.catalogue-btn:hover,
+.nav__icons *:hover,
+.nav__menu *:hover,
+.socialMedia-icons *:hover,
+.catalogue__option:hover {
+  -webkit-transition: 0.75s ease;
+  transition: 0.75s ease;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.why-us__content:hover .leafes3-icon {
+  -webkit-transition: 2s ease;
+  transition: 2s ease;
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+.why-us__content:hover .hand-icon {
+  -webkit-transition: 2s ease;
+  transition: 2s ease;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.why-us__content:hover .leafes-icon {
+  -webkit-transition: 2s ease;
+  transition: 2s ease;
+  -webkit-transform: scale(1.15);
+          transform: scale(1.15);
+}
+
 body {
   margin: 0 auto;
   max-width: 1440px;
@@ -361,6 +393,9 @@ header {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }
+.catalogue .catalogue__option-middle {
+  margin-inline: 40px;
+}
 .catalogue .catalogue__option {
   max-width: 400px;
   position: relative;
@@ -368,7 +403,7 @@ header {
 .catalogue .catalogue__option .option__image {
   width: 100%;
 }
-.catalogue .catalogue__option .option__image--heat {
+.catalogue .catalogue__option .option__image--heart {
   position: absolute;
   right: 0;
   top: 0;
@@ -395,7 +430,6 @@ header {
 .div-nav {
   width: 301px;
   height: 54px;
-  background: red;
   margin: 3.125em auto 9.375em auto;
 }
 
