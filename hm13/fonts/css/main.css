@@ -345,6 +345,7 @@ button {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
+  align-items: center;
 }
 
 .reasons .reason .square img {
@@ -576,6 +577,9 @@ button {
   right: 80px;
 }
 
+.icon-price {
+  fill: #333;
+}
 .last-screen form {
   margin-top: 50px;
 }
